@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Dematrix Architecture</title>
+  <meta name="author" content="Dematrix">
+  <meta description="Dematrix Architecture - Dematrix is a creative studio based in Kannur, kerala , for Architecture , interior and landscaping Founded by Ar.Vineeth k & Ar.Fairooz aman . Our work is branded by its versatility in solving intricate programmes . Understanding user needs, context and materiality as a whole, we show a considerable sensitivity to time management , highlighting the detail qualities of our projects and our environment" content="Dematrix">
+  <meta keys="Dematrix || Architecture || Dematrix">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo" style="color: hsla(0, 0%, 0%, 1);">
+        DEMATRIX
+      </a>
+      <a href="#" class="logoo" style="color: hsla(0, 0%, 0%, 1);">
+        <br><br> ARCHITECTURE
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="navbar-link">
+            Dematrix Architecture
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>HOME</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>STUDIO</a>
+          </li>
+
+          <li>
+            <a href="project.html" class="navbar-link" data-nav-link>WORKS</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>AWARDS</a>
+          </li>
+
+          <li>
+            <a href="#review" class="navbar-link" data-nav-link>PRESS</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link" data-nav-link>CONTACTS</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+  <div class="container">
+    <h1 class="text-center">Contact Us</h1>
+
+    <div class="row form-section">
+      <div class="col-lg-6">
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="contact-details-box">
+        <!-- Contact details content here -->
+        <h2>Contact US</h2>
+        <p><strong>Email:</strong> info@dematrix.in</p>
+        <p><strong>Phone:</strong> +91 7907 150902 , +91 77366 68229</p>
+        <p><strong>Address:</strong> office addressregent plaza,first floorpayangadi,<br>kannur,kerala , india 670358</p>
+    </div>
+      <div class="col-lg-6">
+        <div id="map"></div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<footer>
+  <a class="footer-text navbar-link">© 2023 copyright Dematrix</a>
+</footer>
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Include Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
+    <script>
+      // Google Maps API callback function
+      function initMap() {
+        var location = {
+          lat: 37.7749, // Replace with your latitude
+          lng: -122.4194 // Replace with your longitude
+        };
+  
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: location
+        });
+  
+        var marker = new google.maps.Marker({
+          position: location,
+          map: map
+        });
+      }
+    </script>
+  
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
